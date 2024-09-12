@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 async def read_main():
-    return {"message": "Masterclass Overview"}
+    return {"message": "Masterclass Overview MLOps"}
